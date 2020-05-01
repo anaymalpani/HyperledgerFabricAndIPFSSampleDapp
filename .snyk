@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ipfs-http-client > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - fabric-client > grpc > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - fabric-client > restify > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - fabric-client > restify > restify-errors > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > ipld-dag-pb > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > peer-id > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
+    - ipfs-http-client > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T04:31:58.832Z'
